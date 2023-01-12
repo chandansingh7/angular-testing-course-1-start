@@ -2,11 +2,6 @@
 language: node_js
 node_js:
   - 12
-dist: xenial
-
-addons:
-  chrome: stable
-
 addons:
   apt:
     packages:
@@ -21,9 +16,5 @@ cache:
     - ~/.cache
 install:
   - npm ci
-env:
-  global:
-    # See https://git.io/vdao3 for details.
-    - JOBS=1
 script:
   - npm run e2e
