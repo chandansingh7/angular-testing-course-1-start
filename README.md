@@ -1,4 +1,5 @@
-
+https://app.travis-ci.com/chandansingh7/angular-testing-course-1-start.svg?branch=main
+secret/credential/token
 ## Angular Testing Course
 
 This repository contains the code of the [Angular Testing Course](https://angular-university.io/course/angular-testing-course).
